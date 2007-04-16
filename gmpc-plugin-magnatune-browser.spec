@@ -17,13 +17,14 @@ BuildRequires:	gmpc-devel >= 0.14.0
 BuildRequires:	gtk+2-devel >= 2:2.4
 BuildRequires:	libglade2-devel
 BuildRequires:	libtool
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Magnatune.com browser for Gnome Music Player Client.
 
 %description -l pl.UTF-8
-Przeglądarka magnatune.com dla odtwarzacza Gnome Music Player Clien.
+Przeglądarka magnatune.com dla odtwarzacza Gnome Music Player Client.
 
 %prep
 %setup -qn %{source_name}-%{version}
