@@ -2,19 +2,19 @@
 Summary:	Magnatune.com browser for Gnome Music Player Client
 Summary(pl.UTF-8):	Przeglądarka magnatune.com dla odtwarzacza Gnome Music Player Client
 Name:		gmpc-plugin-magnatune-browser
-Version:	0.18.0
+Version:	0.18.100
 Release:	1
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/musicpd/%{source_name}-%{version}.tar.gz
-# Source0-md5:	4fbe3e85f5be2f6840c414528630f908
-URL:		http://gmpcwiki.sarine.nl/index.php?title=Magnatune
+# Source0-md5:	9b1302b39acaa411c796d2aa388134b1
+URL:		http://gmpc.wikia.com/wiki/GMPC_PLUGIN_MAGNATUNE
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gmpc-devel >= 0.18.0
+BuildRequires:	gmpc-devel >= 0.18.100
 BuildRequires:	gtk+2-devel >= 2:2.4
 BuildRequires:	libglade2-devel
-BuildRequires:	libmpd-devel >= 0.18.0
+BuildRequires:	libmpd-devel >= 0.18.100
 BuildRequires:	libtool
 BuildRequires:	pkgconfig
 BuildRequires:	sqlite3-devel
